@@ -7,6 +7,7 @@ function SignUpForm() {
 
   async function handleSubmit(event) {
     event.preventDefault();
+    console.log('Hello there')
      // You can perform asynchronous operations here using await if needed
      try { 
         const response = await fetch("https://fsa-jwt-practice.herokuapp.com/signup",{
